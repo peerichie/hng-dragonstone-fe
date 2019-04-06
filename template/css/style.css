@@ -83,12 +83,12 @@ header h1 {
 }
 
 .btn-google {
-  background: white url("../images/google.png") 15% 15% no-repeat;
+  background: white url("../images/goo.png") 15% center no-repeat;
   color: grey;
 }
 
 .btn-facebook {
-  background: white url("../images/facebook.png") 15% 15% no-repeat;
+  background: white url("../images/fb.png") 15% center no-repeat;
   color: grey;
 }
 
@@ -105,7 +105,7 @@ header h1 {
   }
   .btn-google,
   .btn-facebook {
-    background-position: center left;
+    background-position: 2% center;
   }
 }
 
