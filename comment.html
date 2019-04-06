@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dragonstone Theme</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="top">
+      <nav class="navbar">
+        <div class="navLogo">EY</div>
+        <ul class="nav-list">
+          <li class="list-items"><a href="#">Home</a></li>
+          <li class="list-items"><a href="#">Work</a></li>
+          <li class="list-items"><a href="#">My Feeds</a></li>
+          <li class="list-items"><a href="#">About</a></li>
+          <li class="list-items"><a href="#">Contact</a></li>
+          <img
+            src="./img_avatar.png"
+            id="list-item-logo"
+            alt=""
+            width="23.33"
+            height="22"
+          />
+        </ul>
+      </nav>
+</section>
+<section> 
+    <h3>Add Comment</h3>     
+       <div id="comment">
+        
+            <form action="#" method="post">
+        
+            <label for="comment_author" class="required">Your name</label>
+            <input type="text" name="comment_author"  value="" required="required">
+        
+            <label for="email" class="required">Your email;</label>
+            <input type="email" name="email" value=""  required="required">
+        
+            <label for="comment" class="required">Your message</label>
+            <textarea name="comment" id="comment" rows="10" required="required"></textarea>
+            <input type="hidden" name="comment_post" value="1" />
+            <input name="submit" type="submit" value="Submit" />
+        </form>
+        
+        </div>
+    </section>
+    </body>
+</html>
